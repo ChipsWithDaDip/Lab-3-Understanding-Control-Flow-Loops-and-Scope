@@ -74,8 +74,9 @@ function scopeExample() {
     console.log(localVar)
 }
 scopeExample();
-console.log(globalVar); // ✅ Accessible outside the function
-console.log(localVar);  // ❌ Error - not accessible outside the function
+console.log(globalVar);
+console.log(localVar); 
+
 
 
 
