@@ -9,6 +9,8 @@ else {
     console.log("The number is zero")
 }
 
+let day = 5;
+
 switch (day) {
     
     case 1:
@@ -76,6 +78,7 @@ function scopeExample() {
 scopeExample();
 console.log(globalVar);
 console.log(localVar); 
+
 
 
 
