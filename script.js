@@ -77,7 +77,8 @@ function scopeExample() {
 }
 scopeExample();
 console.log(globalVar);
-console.log(localVar); 
+
+
 
 
 
